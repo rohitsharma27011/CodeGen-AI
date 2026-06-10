@@ -9,6 +9,10 @@ CodeGen-AI is an AI-powered full-stack application builder that generates, edits
 - Conversational project editing
 - Real-time code updates
 
+Architecture documentation:
+
+- [Architecture Overview](docs/architecture/architecture.md)
+
 ## Tech Stack
 
 ### Backend
@@ -16,13 +20,15 @@ CodeGen-AI is an AI-powered full-stack application builder that generates, edits
 - Spring Boot
 - PostgreSQL
 
-### Frontend
-- React
-- TypeScript
-- Tailwind CSS
-
 ### AI
 - OpenAI / Gemini
+- RAG
+- Vector Database
+
+### Infrastructure
+- Kafka
+- Docker
+- Kubernetes
 
 ## Contributors
 
